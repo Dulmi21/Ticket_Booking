@@ -53,12 +53,19 @@ body{
     
 }
 
-.buttonContent{
+.buttonContent,
+.BookNowContent
+{
     text-align: center;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
      
+}
+
+.BookNowContent{
+    font-weight: 800 ;
+    font
 }
 
 
