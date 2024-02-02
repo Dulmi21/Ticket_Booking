@@ -31,6 +31,8 @@
 
 .movie1{
     padding: 10%;
+    background-color: rgba(165, 42, 142, 0.2);
+    margin: 2px;
      
 }
 
@@ -111,11 +113,25 @@
 .button2{
     background:none;
 }
+ 
 .button1:hover,
 .button2:hover{
     background-color: rgb(156, 97, 212);
 }
  
+
+.button3{
+    flex:1;
+    height: 30px;
+
+    cursor: pointer;
+   
+   
+    border-color: rgb(185, 81, 206);
+    background: none;
+   background: linear-gradient(to top, rgb(152, 46, 201),white);
+
+}
 
 @media (max-width:1000px) and  (min-width:700px){
     .movieGrid{
