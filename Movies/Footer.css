@@ -1,0 +1,158 @@
+.footer{
+    display: flex;
+    margin-top: 30px;
+    padding: 5%;
+}
+.logo_Footer{
+    flex:2;
+
+}
+.footerLogoimage{
+    width: 80%;
+
+}
+
+.email_Footer{
+
+    flex:3;
+    padding-right: 5%;
+
+}
+.enterEmailtext,
+.followUs,
+.callUs,
+.number{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.number{
+    font-weight: 700;
+
+}
+
+.inner_flex{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+}
+.enterEmail{
+    flex: 2;
+    background: none;
+    border: solid purple;
+
+}
+.subscribeButton{
+    flex:1;
+    margin-left: 2%;
+    background: linear-gradient(to top, purple, black);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.followAndCall{
+    flex:2;
+    display: flex;
+     
+}
+.follow_Footer{
+    flex:1;
+
+}
+.call_Footer{
+    flex:1;
+
+}
+.followButton1,
+.followButton2,
+.followButton3{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to top, purple, black);
+    margin-right: 2%;
+    justify-content: center;
+     
+
+
+}
+
+.followimage{
+    width:100%;
+}
+
+
+@media (max-width:1230px) AND (min-width:700px){
+    .footer{
+        padding-right: 0;
+          
+    }
+    .logo_Footer{
+        flex: 1;
+
+    }
+    .email_Footer{
+        flex:1;
+        padding-left: 10%;
+         
+
+    }
+   
+    
+    .inner_flex{
+        display: inline-block;
+        
+         
+    }
+
+    .enterEmail{
+         
+        background: none;
+        border: solid purple;
+
+        height: 40px;
+        width: 100%;
+         
+    
+    }
+    .subscribeButton{
+        
+        
+        background: linear-gradient(to top, purple, black);
+        color: aliceblue;
+        border-radius: 10px;
+
+        height: 40px;
+        width: 50%;
+        margin-top: 20px;
+    }
+    .follow_Footer{
+
+    }
+    .call_Footer{
+
+    }
+    .followAndCall{
+        flex: 1;
+        flex-direction: column;
+        padding-left: 10%;
+    }
+}
+
+@media (max-width:699px)  {
+    .footer{
+        flex-direction: column;
+      
+    }
+    .footerLogoimage{
+        width: 30%;
+    }
+    .logo_Footer,
+    .email_Footer,
+    .followAndCall{
+        margin-bottom: 20px;
+    }
+
+     
+
+}

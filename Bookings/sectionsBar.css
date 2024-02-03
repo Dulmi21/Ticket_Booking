@@ -5,7 +5,8 @@
    margin-left: 20%;
 
    margin-top: 60px;
-   height: 40px;
+   height: fit-content;
+    
 
 }
 .sections{
@@ -15,6 +16,9 @@
     
      border: none;
      margin-left: 1px;
+
+     padding-top: 10px;
+     padding-bottom: 10px;
 
     
 }
