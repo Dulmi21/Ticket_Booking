@@ -91,9 +91,13 @@
         flex: 1;
 
     }
+    .footerLogoimage{
+        width: 100%;
+    }
     .email_Footer{
         flex:1;
-        padding-left: 10%;
+        padding-left: 5%;
+        padding-right: 0;
          
 
     }
@@ -145,7 +149,7 @@
       
     }
     .footerLogoimage{
-        width: 30%;
+        width: 50%;
     }
     .logo_Footer,
     .email_Footer,
