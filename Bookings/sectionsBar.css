@@ -13,7 +13,7 @@
 }
 .sections{
     flex:1;
-    background: none;
+     
     background-color: rgba(131, 19, 125, 0.2);
     
      border: none;
@@ -24,6 +24,11 @@
 
     
 }
+.sections:hover{
+    .linkText{
+        font-size: 18px;
+    }
+}
 .linkText{
     color: black;
     text-decoration: none;
@@ -31,6 +36,7 @@
     font-size: 15px;
     font-weight: 600;
 }
+
 .steps{
     margin-left: 10%;
     margin-right: 10%;
