@@ -40,6 +40,12 @@
          
 
      }
+
+     .next:hover,
+.previous:hover{
+     
+    font-size:16px;
+}
     
 
 
