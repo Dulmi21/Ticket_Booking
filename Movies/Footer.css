@@ -2,9 +2,7 @@
     display: flex;
     margin-top: 30px;
     padding: 5%;
-
     background: linear-gradient(to bottom,  rgb(248, 215, 248) , purple);
-
     border-top: rgb(255, 255, 255) solid 1px;
 }
 .logo_Footer{
@@ -22,6 +20,7 @@
     padding-right: 5%;
 
 }
+
 .enterEmailtext,
 .followUs,
 .callUs,
