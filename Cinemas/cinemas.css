@@ -191,7 +191,63 @@
 
     font-size: 15px;
 }
-button2.linkText{
+.button2.linkText{
     color: rgb(8, 8, 8);
 
+}
+
+
+
+@media (max-width:1000px) and  (min-width:700px){
+    .now-showing-movies{
+        display: grid;
+        
+        grid-template-rows:  1fr 1fr;
+        grid-template-columns:   1fr 1fr;
+        justify-content: center;
+    
+        padding-left: 10%;
+        padding-right: 10%;     
+         
+         
+    } 
+
+    .movie1{
+        margin-top: 5px;
+    }
+   
+
+}
+
+@media (max-width:699px)  {
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cinema-description{
+         
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    .now-showing-movies{
+        display: flex;
+        
+       flex-direction: column;
+        justify-content: center;
+    
+        padding-left: 10%;
+        padding-right: 10%;
+       
+         
+         
+    }
+    .movie1{
+        margin-top: 5px;
+    }
+    
+
+    
 }
