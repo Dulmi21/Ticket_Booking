@@ -152,6 +152,11 @@ textarea{
     border-radius: 10px;
 }
 
+.submit:hover{
+    background: linear-gradient(to top, purple, rgb(241, 237, 237));
+
+
+}
 
 
 
