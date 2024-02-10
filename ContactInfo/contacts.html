@@ -3,9 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacts</title>
+
+    <link rel="stylesheet" href="../Movies/headerFile.css">
+    <link rel="stylesheet" href="../Movies/Footer.css">
+
+    <link rel="stylesheet" href="contacts.css">
 </head>
 <body>
+      <!------------------------------------------------------------------->
+
+      <div class="heading" >
+        <div class="logo">
+            <img src="logo.png" class="logoImage">
+            
+
+        </div>
+
+        <div class="topics">
+            <div class="button">
+                <p class="buttonContent">Home</p>
+
+            </div>
+            <div class="button">
+                <p class="buttonContent">Movies</p>
+
+            </div>
+            <div class="button">
+                <p class="buttonContent">Cinemas</p>
+
+            </div>
+            <div class="button">
+                <p class="buttonContent">Contact Info</p>
+
+            </div>
+
+            <div class="button">
+                <p class="BookNowContent">Book Now</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!------- Section 1------------------------------------------------------------>
+
+    <div class="contacts-grid">
+        <div class="contact-form-section">
+            <div class="description">
+                <p class="title">Contact Us...</p>
+
+                <p class="paragraph">
+                    We're here for you, every step 
+                    of the way.  
+                    <br>
+                    Whether you have a question, need 
+                    assistance, or simply want to share 
+                    your feedback, please don't hesitate 
+                    to reach out. Our team is dedicated to 
+                    providing the support you need, and we're 
+                    eager to help in any way we can. Contact 
+                    us anytime; your satisfaction is our 
+                    priority.
+
+                </p>
+
+            </div>
+
+            <div class="form-box">
+                <form class="contact-form">
+                    <lable for="Name">Name : </lable>
+                    <br>
+
+                    <input type="text" name="Name" placeholder="Enter your name">
+                    <br>
+                    <lable for="Email">Email address :</lable>
+                    <br>
+
+                    <input type="email" name="Email" placeholder="Enter your email address">
+                    <br>
+
+                    <lable for="msg">Message :</lable>
+                    <br>
+                    <textarea id="paragraphInput" name="msg" rows="10" cols="40"  placeholder="Type your msg" ></textarea>
+                    
+                </form>
+                <button class="submit">
+                    <p class="submit-text">Submit</p>
+                </button>
+
+
+            </div>
+
+        </div>
+
+        <div class="other-contacts-section">
+            <div class="other-contacts">
+                <div class="image-container">
+                    <img src="location.svg" class="contact-image">
+
+                </div>
+               
+                <p class="contact-title">
+                    Reach Us
+
+                </p>
+
+                <p class="contact-description">
+                    No 101, Main road, Colombo
+
+                </p>
+
+            </div>
+
+            <!------------------------------------>
+            <div class="other-contacts">
+                <div class="image-container">
+                    <img src="insta.svg" class="contact-image">
+                </div>
+                
+                <p class="contact-title">
+                    Follow Us
+
+                </p>
+
+                <p class="contact-description">
+                    Follow us on Instagram for a 
+                    vibrant feed packed with all the updates.
+
+                </p>
+                
+            </div>
+
+             <!------------------------------------>
+            <div class="other-contacts">
+                <div class="image-container">
+                    <img src="call.svg" class="contact-image">
+                </div>
+                
+                <p class="contact-title">
+                    Call Us
+
+                </p>
+
+                <p class="contact-description">
+                    For expedient support, simply reach out 
+                    to us via phone, where our team is 
+                    committed to providing expert guidance
+
+                </p>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!---------------------------------->
+
+    <div class="footer">
+        <div class="logo_Footer">
+            <img src="logo.png" class="footerLogoimage">
+
+        </div>
+
+        <div class="email_Footer">
+            <label for="enterEmail" class="enterEmailtext">Enter your email address:</label>
+            <br>
+            <div class="inner_flex">
+                <input type="email" name="enterEmail" class="enterEmail" placeholder="example@gmail.com">
+                <button class="subscribeButton">Subscribe</button>
+    
+
+            </div>
+    
+        </div>
+
+        <div class="followAndCall">
+            <div class="follow_Footer">
+                <p class="followUs">
+                    Follow Us
+                </p>
+                <button class="followButton1">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="insta_icon.svg" class="followimage">
+    
+    
+                    </a>
+                </button>
+                <button class="followButton2">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="insta_icon.svg" class="followimage">
+    
+    
+                    </a>
+                </button>
+                <button class="followButton3">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="insta_icon.svg" class="followimage">
+    
+    
+                    </a>
+                  
+                </button>
+    
+            </div>
+    
+            <div class="call_Footer">
+                <p class="callUs">Call us</p>
+                <p class="number">+94 113562761</p>
+    
+            </div>
+
+        </div>
+
+        
+    </div>
+
     
 </body>
 </html>
