@@ -7,7 +7,9 @@
 }**/
 
 body{
-    background: linear-gradient(to right, rgb(152, 46, 201),white);
+    /*background: linear-gradient(to right, rgb(152, 46, 201),white);*/
+
+    background: linear-gradient(to right, rgb(152, 46, 201),rgb(255, 255, 255), rgb(152, 46, 201));
 }
 .heading{
     display: flex;
@@ -65,7 +67,7 @@ body{
 
 .BookNowContent{
     font-weight: 800 ;
-    font
+    
 }
 
 
