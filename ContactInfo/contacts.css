@@ -20,6 +20,8 @@
      
 }
 
+ 
+
 
 
 .other-contacts-section{
@@ -110,7 +112,8 @@
 
 }
 
-lable{
+lable,
+.submit-text{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 
@@ -147,4 +150,65 @@ textarea{
     background: linear-gradient(to top, purple, black);
     color: aliceblue;
     border-radius: 10px;
+}
+
+
+
+
+@media (max-width:1000px) and  (min-width:700px){
+
+    .contacts-grid{
+        padding: 5%;
+
+    }
+    .contact-form-section{
+        padding: 5%;
+    }
+    .description{
+        flex: 1;
+    
+        padding: 2%;
+    } 
+    .form-box{
+        margin-left: 5%;
+    }
+
+    
+
+}
+
+@media (max-width:699px)  {
+    .contacts-grid{
+        padding: 5%;
+
+    }
+    .contact-form-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .other-contacts-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .other-contacts{
+        margin-bottom: 20px;
+    }
+
+    .form-box
+     {
+        text-align: center;
+    }
+    .submit-button{
+       text-align: center;
+        
+    }
+    .submit-text{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    
+
+    
 }
