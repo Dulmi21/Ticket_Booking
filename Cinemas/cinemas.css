@@ -236,6 +236,10 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+    .cinema{
+        padding: 5px;
+        padding-top: 20px;
+    }
 
 
     .now-showing-movies{
