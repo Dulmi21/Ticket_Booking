@@ -4,11 +4,14 @@
     margin-top: 5%;
     /*border-left: black solid 2px;
     border : black solid 2px;*/
-    padding-bottom: 20px;
-    padding-top: 20px;
+     
+    padding: 40px;
 
     /*background: linear-gradient( to top, rgb(152, 46, 201),rgb(123, 81, 174), rgb(152, 46, 201));*/
-    background-color: rgba(128, 2, 120, 0.3);
+    background-color:  rgba(235, 190, 235,0.2);
+
+    border-radius: 20px;
+     
 }
 
 /*********************************/
@@ -24,11 +27,13 @@
     flex: 1;
     display: flex;
     justify-content: center;
+   
      
 
 
 }
 .cinema-image{
+   
     width: 80%;
 }
 
@@ -111,6 +116,7 @@
 .movieImage{
      
     width: 70%;
+    margin-top: 20px;
      
      
 
