@@ -118,6 +118,10 @@ lable,
     font-size: 20px;
 
 }
+.submit-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
  
 input{
     height: 40px;
@@ -150,6 +154,9 @@ textarea{
     background: linear-gradient(to top, purple, black);
     color: aliceblue;
     border-radius: 10px;
+}
+.submit-button{
+    height: 20px;
 }
 
 .submit:hover{
