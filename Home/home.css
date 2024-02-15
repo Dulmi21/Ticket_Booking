@@ -1,0 +1,33 @@
+.movie-gallery{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    height: 80vh;
+}
+
+.arrow1,
+.arrow2{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-arrow,
+.right-arrow{
+    
+}
+
+.left-arrow-image{
+    direction: 90;
+}
+
+.right-arrow-image{
+
+}
+
+.movies{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
