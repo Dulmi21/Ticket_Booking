@@ -60,6 +60,11 @@
 
 /****************************************/
 
+.button1 a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
 
 
 .now-showing-movies{
