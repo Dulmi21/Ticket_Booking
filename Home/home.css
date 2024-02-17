@@ -8,21 +8,41 @@
 
 .arrow1,
 .arrow2{
-    width: 40px;
+    width: 10%;
     display: flex;
     justify-content: center;
 }
 
 .left-arrow,
 .right-arrow{
+    background:  none;
+    border: none;
+
+    cursor: pointer;
     
 }
 
+.left-arrow:hover{
+    .left-arrow-image{
+        width: 50px;
+    }
+
+}
+
+.right-arrow:hover{
+    .right-arrow-image{
+        width: 50px;
+    }
+    
+}
 .left-arrow-image{
-    direction: 90;
+    transform: rotate(-90deg);
+    width: 40px;
 }
 
 .right-arrow-image{
+    transform: rotate(90deg);
+    width: 40px;
 
 }
 
