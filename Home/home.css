@@ -51,11 +51,12 @@
     display: flex;
     justify-content: center;
 }
+.movie-image{
+    width: 90%;
+}
 
 
 @media (max-width:699px){
-    .movies{
-        background-image: url(movie-image-phone.jpg);
-    }
+   
 
 }
