@@ -24,7 +24,14 @@
 .next:hover,
 .previous:hover{
      
-    font-size: 20px;
+  cursor: pointer;
+
+  .previousText,
+   .nextText{
+    color: rgb(246, 7, 254);
+
+      }
+   
 }
 
 .previousText,
