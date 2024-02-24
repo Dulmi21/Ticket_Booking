@@ -37,12 +37,18 @@ body{
 
 }
 
-.button{
+.button,
+.BookNow-buttom{
     flex:1;
     vertical-align: middle;
 
     
     
+}
+
+.BookNow-buttom{
+    display: flex;
+    justify-content: end;
 }
 .topics{
     flex:1;
@@ -59,27 +65,29 @@ body{
 .BookNowContent
 {
     text-align: center;
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 400;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
      
 }
 
 .BookNowContent{
     font-weight: 800 ;
-    
-}
-
-
-
-.buttonContent:hover{
-    font-weight: 700;
-    text-decoration: underline;
      
     
-    
-
 }
+ .button:hover{
+    .buttonContent{
+        font-weight: 700;
+        text-decoration: none;
+    }
+ }
+
+
+
+ 
 
 @media (max-width:1200px) and  (min-width:744px){
 
