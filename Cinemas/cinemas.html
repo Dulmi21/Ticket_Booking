@@ -349,6 +349,29 @@
 
         
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let lastScrollTop = 0;
+            const navbar = document.querySelector('.heading');
+            
+            window.addEventListener('scroll', function () {
+                const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    
+                if (currentScroll > lastScrollTop) {
+                    // Scrolling down
+                    if (window.innerWidth > 768) {
+                        navbar.classList.add('hidden-nav');
+                    }
+                } else {
+                    // Scrolling up
+                    navbar.classList.remove('hidden-nav');
+                }
+                lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+            }, false);
+        });
+
+       
+    </script>
     
 
     
